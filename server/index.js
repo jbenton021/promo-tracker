@@ -32,7 +32,6 @@ const addPromo = async (req, res) => {
     }
 
 }
-    // INSERT INTO public.promos (promo_id, descrip, code, promo_category, starting_date) VALUES (1,  'factor_ code', 'YAHUNGRY50', 'Food', '2024-08-18');
 
 app.get("/", (req, res) => {
     res.send("Hello, World!");
